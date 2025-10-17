@@ -1,4 +1,4 @@
-package src.String_in_Java.Loops_in_Java;
+package src.Loops_in_Java;
 import java.util.Scanner;
 
 public class VD14_PrintCharactersOfName {
