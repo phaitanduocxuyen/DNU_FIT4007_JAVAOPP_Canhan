@@ -1,4 +1,4 @@
-package src.Constructor;
+package src.Part8_Constructor;
 
 public class VD1_Student {
     private String masv;
