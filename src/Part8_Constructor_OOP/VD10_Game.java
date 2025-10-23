@@ -1,4 +1,4 @@
-package src.Part8_Constructor;
+package src.Part8_Constructor_OOP;
 
 public class VD10_Game {
     private int id;

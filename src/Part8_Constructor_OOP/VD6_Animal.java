@@ -1,25 +1,17 @@
-package src.Part8_Constructor;
+package src.Part8_Constructor_OOP;
 
-public class VD1_Student {
-    private String masv;
+public class VD6_Animal {
     private String name;
+    private String color;
     private int age;
 
-    public VD1_Student() {
+    public VD6_Animal() {
     }
 
-    public VD1_Student(String masv, String name, int age) {
-        this.masv = masv;
+    public VD6_Animal(String name, String color, int age) {
         this.name = name;
+        this.color = color;
         this.age = age;
-    }
-
-    public String getMasv() {
-        return masv;
-    }
-
-    public void setMasv(String masv) {
-        this.masv = masv;
     }
 
     public String getName() {
@@ -28,6 +20,14 @@ public class VD1_Student {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public int getAge() {
@@ -40,9 +40,9 @@ public class VD1_Student {
 
     @Override
     public String toString() {
-        return "VD1_Student{" +
-                "masv='" + masv + '\'' +
-                ", name='" + name + '\'' +
+        return "VD6_Animal{" +
+                "name='" + name + '\'' +
+                ", color='" + color + '\'' +
                 ", age=" + age +
                 '}';
     }
